@@ -9,8 +9,9 @@ import './App.css'
 
 class App extends Component {
 
+  
   render() {
-    return (
+    return  (
       <div className="App">
         <Header />
         <About />
@@ -19,6 +20,7 @@ class App extends Component {
         <Contact />
         <Footer />
       </div>
+
     );
   }
   

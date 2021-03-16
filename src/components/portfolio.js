@@ -49,9 +49,9 @@ export default class Porfolio extends Component {
         <section style={{padding:40,textAlign:'center'}}>
           <h1>{modal.title}</h1>
           <p style={{fontSize:12,lineHeight:'20px',maxWidth:300}}>{modal.fullDescription}</p>
-          <img src={modal.imgurl} style={{height:100,display:'block',margin:'10px auto'}} />
+          <img src={modal.imgurl} alt="" style={{height:100,display:'block',margin:'10px auto'}} />
           <a href={modal.githubLink} target="_blank">
-            <span>view more</span>
+            <span style={{color:"#7868E6", textTransform:"uppercase", letterSpacing:"2px"}}>view more</span>
           </a>
         </section>
       </Modal>

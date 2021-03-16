@@ -20,47 +20,32 @@ let resumeData = {
         className:"fa fa-instagram"
       }
     ],
-  aboutme:"I have finished my B.S. in Human Centered Design and Engineering, and am currently seeking a Web Development position.",
- 
-  // skillsDescription:"My skills:",
-  // skills:[
-  //   {
-  //     skillname:"Reactjs",
-  //     level:100,
-  //   },
-  //   {
-  //     skillname:"HTML5",
-  //     level:70,
-  //   },
-  //   {
-  //     skillname:"CSS",
-  //     level: 80,
-  //   },
-  // ],
+  aboutme:"I am a Vietnamese immigrant and currently a 4th-year undergraduate at the University of Washington in Seattle majoring in Human Centered Design & Engineering and minoring in Entrepreneurship. I am excited to learn more about the intersection between HCDE and Business and how this intersection enables me to make a positive impact in my community. I am also passionate about leadership, women empowerment, and helping close the gender gap in technology.",
+
   portfolio:[
     {
-      name:"Chat APP!!!",
-      description:"mobileapp",
-      imgurl:"images/portfolio/phone.jpg",
-      title:"Phone App",
-      githubLink:"https://github.com/Evanfeenstra/chatter",
-      fullDescription:"this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app this is a longer description about this app "
+      name:"GroceryPal",
+      description:"UX Design",
+      imgurl:"images/portfolio/grocerypalmockup.png",
+      title:"GroceryPal",
+      githubLink:"https://www.figma.com/proto/dp0Ez4U8EwJXO1mZ7j6LtM/HCDE318-GroceryPal?node-id=587%3A967&scaling=scale-down",
+      fullDescription:"The user-centered design process to create a mobile app that helps the user to track their grocery items and minimize food waste."
     },
     {
-      name:"asdfasdfasf",
-      description:"mobileapp",
-      imgurl:"images/portfolio/weatherer.png",
-      title:"Something",
-      githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
+      name:"Seattle Transit",
+      description:"Brand Redesign",
+      imgurl:"images/portfolio/STcardtemp.png",
+      title:"Seattle Transit",
+      githubLink:"https://www.figma.com/proto/yLYDFZCmGjIFkVnKXJDZol/STS?node-id=367%3A3&scaling=scale-down",
+      fullDescription:"A brand identity redesign for the Seattle Transit System."
     },
     {
-      name:"project3",
-      description:"mobileapp",
-      imgurl:"images/portfolio/chatter.jpg",
-      title:"Hello",
-      githubLink:"https://github.com",
-      fullDescription:"this is a longer description about this app"
+      name:"Refugee Artisan Initiative",
+      description:"Brand Redesign",
+      imgurl:"images/portfolio/RAItemp.png",
+      title:"Refugee Artisan Initiative",
+      githubLink:"https://drive.google.com/file/d/1c2rOukUq5-pzpWA5_SFbRYldmAHayvyK/view?usp=sharing",
+      fullDescription:"A brand identity redesign for the Refugee Artisan Initiative."
     },
   ],
 }

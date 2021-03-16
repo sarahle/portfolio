@@ -11,6 +11,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  background: #B8B5FF;
 }
 
 .react-pdf__Page__canvas{
@@ -32,6 +33,7 @@ ul#nav li.current a {
 h2{
  color: white;  
 }
+
 
 /* 
 .portfolio-modal{

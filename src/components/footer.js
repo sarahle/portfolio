@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import resumeData from '../resumeData';
+import { FaCopyright } from "react-icons/fa"
 
 export default class Footer extends Component {
   render() {
@@ -22,7 +23,12 @@ export default class Footer extends Component {
             }
           </ul>
         </div>
+
         <div id="go-top"><AnchorLink title="Back to Top" href="#home"><i className="icon-up-open" /></AnchorLink></div>
+        <div style={{color:"#E4FBFF"}}>
+          <FaCopyright title="copyright" style={{width:"15px", heigh:"5px"}}/> 2021 Sarah Quynh Le
+        </div>
+        
       </div>
     </footer>
     );
